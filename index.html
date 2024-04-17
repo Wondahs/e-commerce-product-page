@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./styles/styles.css">
+  <link rel="stylesheet" href="./styles/cart.css">
+  <title>Frontend Mentor | E-commerce product page</title>
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+  <header>
+	  <div class="menu"> <img state="closed" id="menu-button" src="./images/icon-menu.svg" alt="Menu botton">  </div>
+    <div class="logo"><img src="./images/logo.svg" alt="Logo"></div>
+    <nav id="nav-bar" >
+      <ul>
+        <li>Collections</li>
+        <li>Men</li>
+        <li>Women</li>
+        <li>About</li>
+        <li>Contact</li>
+      </ul>
+    </nav>
+    <div class="cart-count">
+	    <p id="item-no" >2</p>
+	    <div class="cart-icon"><img id="cart-icon" src="./images/icon-cart.svg" alt=""></div>
+    </div>
+    <div class="avatar"><img src="./images/image-avatar.png" alt=""></div>
+  </header>
+  <section id="popup">
+  </section>
+  <section id="cart" state="closed"  class="cart" >
+	  <div class="title" >Cart</div>
+	  <div id="empty-cart" ><p>Your cart is empty</p></div>
+	  <div class="items" >
+		  <div class="item-pic"><img src="./images/image-product-1-thumbnail.jpg"> </div>
+		  <div class="details">
+			  <p>Fall Limited Edition Sneakers</p>
+			  <p id="item-price" class="price">$3</p>
+		  </div>
+		  <div id="delete-button"><img src="./images/icon-delete.svg" alt=""></div>
+	  </div>
+	  <div id="checkout" class="checkout">Checkout</div>
+  </section>
+  <main>
+    <div id="left" class="left">
+        <div class="preview">
+	    <img id="next"  src="./images/icon-next.svg" alt="">
+	    <img id="prev" src="./images/icon-previous.svg" alt="">
+        <img id="preview-image" src="./images/image-product-1.jpg" alt="">
+      </div>
+      <div class="thumbnails">
+        <div class="thumbnail1"><img src="./images/image-product-1-thumbnail.jpg" alt=""></div>
+        <div class="thumbnail2"><img src="./images/image-product-2-thumbnail.jpg" alt=""></div>
+        <div class="thumbnail3"><img src="./images/image-product-3-thumbnail.jpg" alt=""></div>
+        <div class="thumbnail4"><img src="./images/image-product-4-thumbnail.jpg" alt=""></div>
+      </div>
+    </div>
+    <div class="right">
+      <h3>SNEAKER COMPANY</h3>
+      <h1>Fall Limited Edition Sneakers</h1>
+      <p class="description">These low-profile sneakers are your perfect casual wear companion. Featuring a                                  durable rubber outer sole, they’ll withstand everything the weather can offer.</p>
+      <div class="prices" >
+	      <div class="discount-price">
+		      <p>$125.00</p>
+		      <p class="discount" ><span>50%</span></p>
+	      </div>
+	      <div class="real-price"><p>$250.00</p></div>
+      </div>
+      <div class="order">
+        <div class="add-amount-remove">
+          <img id="plus-button" src="./images/icon-plus.svg" alt="">
+          <div id="amount" class="amount">0</div>
+          <img id="minus-button" class="minus" src="./images/icon-minus.svg" alt="">
+        </div>
+        <div id="add-to-cart" class="add-to-cart">
+          <img src="./images/icon-cart.svg" alt="">
+          <h4>Add to cart</h4>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="#">Wonders Victor</a>.
+    </div>
+  </footer>
+  <script src="./scripts/script.js" ></script>
+  <script src="./scripts/popup.js" ></script>
+</body>
+</html>
