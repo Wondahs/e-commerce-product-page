@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [See solution details](https://www.frontendmentor.io/solutions/ecommerce-product-page-bZxjBkCqYf)
+- Live Site URL: [Try it out](https://wondahs.github.io/e-commerce-product-page/)
 
 ## My process
 
